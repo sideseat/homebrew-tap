@@ -1,28 +1,28 @@
 class Sideseat < Formula
   desc "AI/LLM observability toolkit — traces, messages, costs in one UI"
   homepage "https://github.com/sideseat/sideseat"
-  license "AGPL-3.0-only"
-  version "1.0.11"
+  license "Apache-2.0"
+  version "1.0.13"
 
   on_macos do
     on_arm do
       url "https://github.com/sideseat/sideseat/releases/download/v#{version}/sideseat-#{version}-darwin-arm64.zip"
-      sha256 "4856e6ba8944f00632386be8a14d54366630cdbc750247cec3cf1b83abf50dd6"
+      sha256 "491db246b37c510d4bbcfb85bf9b0ac8eb2b65921de4c4fc8adfdfa516bdc1c8"
     end
     on_intel do
       url "https://github.com/sideseat/sideseat/releases/download/v#{version}/sideseat-#{version}-darwin-x64.zip"
-      sha256 "2c1cad6e6a00d1a5fdcddfe5f682bc211a2f0afa4f67906f90e67e326b37ae37"
+      sha256 "a2a1f27e2d37a13de86cd7e2900094c7ffc8cda913383954c5e0fff0018b9eda"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/sideseat/sideseat/releases/download/v#{version}/sideseat-#{version}-linux-arm64.tar.gz"
-      sha256 "26fb5d1089eea9dd0f8206eb59cb90709f32846a243d1acaf5055594ce50a3f5"
+      sha256 "cd8fed6cfd9dc01ec612d415f3016bd91c136a422cdd2e98064fa1ccf6a5df87"
     end
     on_intel do
       url "https://github.com/sideseat/sideseat/releases/download/v#{version}/sideseat-#{version}-linux-x64.tar.gz"
-      sha256 "c1fecc87f9fd1c846b113c6b57889b3baceb5c3915b7c3babea6ce955d69c2fc"
+      sha256 "dfc9172805611bfae6e1711b44aad0c201d525534124a01c20f7654011fc8732"
     end
   end
 
